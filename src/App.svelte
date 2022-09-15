@@ -1,9 +1,14 @@
 <script>
 	import { Router, Route } 	from "svelte-navigator";
 	import SDKGuide2 			from "./SDKGuide2.svelte";	
-	import SDKGuide1P1 			from "./sdkguide1/page1.svelte";	
-	import SDKGuide1P2 			from "./sdkguide1/page2.svelte";	
-	import SDKGuide1P3 			from "./sdkguide1/page3.svelte";	
+	import IOSSDK1 				from "./ios-sdk/page1.svelte";	
+	import IOSSDK2 				from "./ios-sdk/page2.svelte";	
+	import IOSSDK3 				from "./ios-sdk/page3.svelte";	
+	import IOSSDK4 				from "./ios-sdk/page4.svelte";	
+	import IOSSDK5 				from "./ios-sdk/page5.svelte";	
+	import IOSSDK6 				from "./ios-sdk/page6.svelte";	
+	import IOSSDK7 				from "./ios-sdk/page7.svelte";	
+	import IOSSDK8 				from "./ios-sdk/page8.svelte";	
 </script>
 
 <main>
@@ -16,9 +21,16 @@
 						<i class="bi bi-gear nav-icon"></i>SDK 연동 가이드 
 						<li class='sdk'>iOS SDK</li>
 						<ul class='sdk'>
-							<a href="/sdkguide1p1"><li>페트리 초기화</li></a>
-							<a href="/sdkguide1p2"><li>딥 링크 이벤트 분석</li></a>
-							<a href="/sdkguide1p3"><li>이벤트 분석</li></a>
+							<a href="/ios-sdk-1"><li>페트리 초기화</li></a>
+							<a href="/ios-sdk-2"><li>딥 링크 이벤트</li></a>
+							<a href="/ios-sdk-3"><li>이벤트 분석</li></a>
+							<ul>
+								<a href="/ios-sdk-4"><li>유저 분석</li></a>
+								<a href="/ios-sdk-5"><li>커스텀 분석</li></a>
+								<a href="/ios-sdk-6"><li>일반 분석</li></a>
+								<a href="/ios-sdk-7"><li>커머스 분석</li></a>
+								<a href="/ios-sdk-8"><li>게임 분석</li></a>
+							</ul>
 						</ul>
 						<a href ="/sdkguide2"><li class='sdk'>Android SDK</li></a>
 					</ul>
@@ -38,19 +50,44 @@
 					<SDKGuide2/>
 				</Route>
 
-				<!-- Router : SDK Guide 1 - Page 1 -->
-				<Route path="/sdkguide1p1" primary={false}>
-					<SDKGuide1P1/>
+				<!-- Router : iOS SDK Guide - Page 1 -->
+				<Route path="/ios-sdk-1" primary={false}>
+					<IOSSDK1/>
 				</Route>
 
-				<!-- Router : SDK Guide 1 - Page 2 -->
-				<Route path="/sdkguide1p2" primary={false}>
-					<SDKGuide1P2/>
+				<!-- Router : iOS SDK Guide - Page 2 -->
+				<Route path="/ios-sdk-2" primary={false}>
+					<IOSSDK2/>
 				</Route>
 
-				<!-- Router : SDK Guide 1 - Page 3 -->
-				<Route path="/sdkguide1p3" primary={false}>
-					<SDKGuide1P3/>
+				<!-- Router : iOS SDK Guide - Page 3 -->
+				<Route path="/ios-sdk-3" primary={false}>
+					<IOSSDK3/>
+				</Route>
+
+				<!-- Router : iOS SDK Guide - Page 4 -->
+				<Route path="/ios-sdk-4" primary={false}>
+					<IOSSDK4/>
+				</Route>
+
+				<!-- Router : iOS SDK Guide - Page 5 -->
+				<Route path="/ios-sdk-5" primary={false}>
+					<IOSSDK5/>
+				</Route>
+
+				<!-- Router : iOS SDK Guide - Page 6 -->
+				<Route path="/ios-sdk-6" primary={false}>
+					<IOSSDK6/>
+				</Route>
+
+				<!-- Router : iOS SDK Guide - Page 7 -->
+				<Route path="/ios-sdk-7" primary={false}>
+					<IOSSDK7/>
+				</Route>
+
+				<!-- Router : iOS SDK Guide - Page 8 -->
+				<Route path="/ios-sdk-8" primary={false}>
+					<IOSSDK8/>
 				</Route>
 
 

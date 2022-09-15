@@ -1,11 +1,11 @@
 <script>
     
 </script>
-<h3 class='head-text'>페트리 연동하기[iOS]</h3>
+<h3 class='head-text'>페트리 iOS 연동</h3>
 <div class='title'>이벤트 분석</div>
 
 
-<ul>
+<ul class='page-list'>
     <li>
         유저 분석
         <ul>
@@ -50,3 +50,11 @@
         </ul>
     </li>
 </ul>
+
+
+<style>
+    ul.page-list{
+        line-height:38px;
+        margin-top:22px;
+    }
+</style>

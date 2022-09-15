@@ -1,5 +1,5 @@
 .title{
-    font-size:27px; font-weight:600; margin-top:40px;
+    font-size:27px; font-weight:600; margin-top:20px;
 }
 
 .title.mg-top{
@@ -7,14 +7,18 @@
 }
 
 .sub-title-1{
-    font-size:22px; font-weight:600; margin-top:70px;
+    font-size:22px; font-weight:600; margin-top:95px;
+}
+
+.sub-title-1.no-mgtop{
+    margin-top:0px;
 }
 .sub-title-2{
     font-size:17px; font-weight:500; margin-top:4px; color:gray;
 }
 
 .sub-title-2.mg-top{
-    margin-top:85px;
+    margin-top:120px;
 }
 
 .text{

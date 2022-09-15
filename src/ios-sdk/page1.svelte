@@ -7,7 +7,7 @@
 
 </script>
 
-<h3 class='head-text'>페트리 연동하기[iOS]</h3>
+<h3 class='head-text'>페트리 iOS 연동</h3>
 <div class='title'>페트리 초기화</div>
 <div class='text'></div>
 코드에서 다음과 같이 페트리 SDK를 import하여 초기화합니다.
