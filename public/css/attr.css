@@ -1,7 +1,0 @@
-.filter{margin-top:35px; width:800px; min-height:30px; border:1px solid #ececec; border-radius:4px; padding:25px 35px;}
-.filter .filter-unit{width:330px;cursor:pointer;}
-.filter .lb-interval{width:100px;cursor:pointer;}
-.filter input[type=text]{width:100px; border-radius:4px; display:inline-block;}
-.filter span.text-1{margin-left:10px;}
-
-i.remove-filter{margin-left:20px;cursor:pointer;}
