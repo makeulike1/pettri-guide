@@ -1,0 +1,43 @@
+.title{
+    font-size:27px; font-weight:600; margin-top:40px;
+}
+
+.title.mg-top{
+    margin-top:110px;
+}
+
+.sub-title-1{
+    font-size:22px; font-weight:600; margin-top:70px;
+}
+.sub-title-2{
+    font-size:17px; font-weight:500; margin-top:4px; color:gray;
+}
+
+.sub-title-2.mg-top{
+    margin-top:85px;
+}
+
+.text{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.code{
+    width:1200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size:15px;
+    font-weight:500;
+    margin-top:15px;
+    border:1px solid #ececec;
+    padding:15px 30px;
+    background-color:#f9f9f9;
+}
+
+.left-space{
+    padding-left:45px;
+}
+
+.remark{
+    color:green;
+    font-weight:400;
+}

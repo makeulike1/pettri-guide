@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    padding:0;
+}
+
+
+.nav-no-bullets{
+    padding-top: 15px !important;
+}
+
+.nav-link{
+    height:50px;
+    line-height:35px;
+    font-size:18px; 
+}
+
+
+
+
+/* 페이지 헤더 */
+h3.head-text{
+    font-size:40px; 
+    font-weight:600;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nav-link-li{
+    height:70px;
+    line-height:70px;
+    font-size:22px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nav-link-li ul.sdk{
+    margin-left:52px; font-size:20px; line-height:55px;
+}
+
+.nav-link:hover{
+    background-color:#ececec;
+}
+.nav-link-li:hover{
+    background-color:#ececec;
+}
+
+
+.sub-head-text{
+    font-size: 20px;
+    margin-top: 18px;   
+}
+
+ 
+
+#paging-filter {
+    margin-top:15px;
+}
+ 
+#paging-filter .paging-number{
+    margin-right:10px; 
+    margin-right:30px;
+    font-weight:bold;
+    font-size:20px;
+    color:#bdbdbd;
+    cursor:pointer;
+}
+
+#paging-filter .paging-number.current-page{
+    color:#00264d;
+}
+
+
+#paging-filter .paging-number:hover{
+    color:#00264d;
+}

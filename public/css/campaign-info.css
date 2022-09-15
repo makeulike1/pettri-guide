@@ -1,0 +1,10 @@
+.nav-link {
+    display: inline-block !important;
+    /* You can also add some margins here to make it look prettier */
+    padding-left:0px !important;
+    padding-right:100px !important;
+}
+.nav-link:hover{
+    background-color: white !important;
+    color:blue;
+}

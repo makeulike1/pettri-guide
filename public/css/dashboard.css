@@ -1,0 +1,532 @@
+
+
+    
+    .head-desc-label{
+        color:blue;
+        font-size:14px;
+    }
+
+
+
+
+    /* 리포트 쿼리 팝업 */
+    .modal-dialog.rpt-query{
+        max-width:1000px;
+    }
+
+
+
+    .modal-content.rpt-query{
+        border:none;
+    }
+
+    .modal-content.rpt-query .modal-header{
+        background-color: #00264d; color:white;
+    }
+
+    .modal-content.rpt-query .modal-header button.close{
+        color:white;
+    }
+
+    .modal-body.rpt-query .query-cont{
+        border-bottom:1px dotted #bdbdbd;
+        width: 930px;
+        padding-bottom: 20px;
+        padding-top:10px;
+        padding-left:14px;
+    }
+    .modal-body.rpt-query .query-cont:last-of-type{
+        border-bottom:none;
+    }
+    
+
+    .modal-dialog.rpt-query .sub-header-1{
+        font-size:22px;
+        font-weight:600;
+        color:#00264d;
+    }
+    .modal-dialog.rpt-query .sub-header-2{
+        font-size:16px;
+        font-weight:600;
+    }
+
+
+    .rpt-sql{
+        background-color:#ececec;
+        color:#ff0000;
+        font-weight:500;
+        font-size:14px;
+    }
+        
+    textarea.sql{
+        width: 900px;
+        height: 125px;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 13px;
+        border-radius: 6px;
+        color:rgb(0,80,160);
+    }
+
+
+
+
+    /* 광고 수정이력 팝업 */
+    .modal-dialog.ad-history{
+        max-width:1500px;
+    }
+
+    .modal-content.ad-history{
+        width:1500px;
+    }
+
+    .modal-content.ad-history .modal-header{
+        background-color:#00264d; color:white;
+    }
+
+    .modal-content.ad-history .modal-header button.close{
+        color:white;
+    }
+
+    .modal-content.ad-history .modal-body{
+        font-size:15px;
+        height: 930px;
+        overflow-y: scroll;
+    }
+    
+    .modal-content.ad-history .row{
+        padding-left:30px;
+    }
+
+
+    .modal-content.ad-history .row .create-time{
+        font-weight:bold;
+        margin-right:8px;
+        width:190px;
+    }
+
+    .modal-content.ad-history .row .updated-key{
+        color:blue;
+        margin-left:6px;
+        font-weight:bold;
+    }
+
+    .modal-content.ad-history .row .updated-value{
+        font-weight:bold;
+        color:red;
+        margin-left:6px;
+    }
+
+
+    /* 광고 목록 컨테이너 */
+    .ad-list{
+        margin-top:30px;
+    }
+
+ 
+
+
+    /* 광고 목록 헤더 */ 
+    .ad-list-header{
+        margin-top:20px;
+        font-weight:450;
+        font-size:20px;    
+        padding-top:10px;
+        width:1850px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: black;
+        font-size: 17px;
+        margin-bottom: 0px;
+        padding-bottom: 11px;
+    }
+
+    .ad-list-header .column.number{
+        display:inline-block;
+        width:100px;
+        padding-left:11px;
+    }
+
+    .ad-list-header .column.supply-demand{
+        display:inline-block;
+        width:100px;
+        padding-left:11px;
+    }
+
+    .ad-list-header .column.name{
+        display:inline-block;
+        width:475px;
+    }
+
+    .ad-list-header .column.aff{
+        display:inline-block;
+        width:180px;
+    }
+            
+    .ad-list-header .column.adtype{
+        display:inline-block;
+        width:90px;
+        padding-left:5px;
+    }
+ 
+
+    .ad-list-header .column.date{
+        display:inline-block;
+        width:110px;
+        text-align:center;
+    }
+
+    .ad-list-header .column.status{
+        display:inline-block;
+        width:120px;
+        padding-left:46px;
+    }
+
+ 
+    .ad-list-header .column.imp{
+        width:200px;
+        display:inline-block;
+        padding-left:10px;
+    }
+
+ 
+
+
+    /* 광고 목록 행 */
+    .ad-list-row{
+        padding-top:10px;
+        font-size:16px;
+        padding-bottom:10px;
+        border-top:1px solid gray;
+        width:1550px;
+    }
+    
+    .ad-list-row:hover{
+        background-color:#f5f5f5;
+    }
+ 
+
+
+    .ad-list-row:first-of-type{
+        border-top:1px solid #0150a0;
+    }
+
+    .ad-list-row .column{
+        vertical-align: top;
+    }
+
+    .ad-list-row .column.number{
+        display:inline-block;
+        width:90px;
+        padding-left:13px;
+    }
+
+    .ad-list-row .column.supply-demand{
+        display:inline-block;
+        width:110px;
+        font-weight:600;
+        text-align:center;
+
+    }
+
+    .ad-list-row .column.supply-demand .supply{
+        color:blue;
+    }
+
+    .ad-list-row .column.supply-demand .demand{
+        color:red;
+    }
+
+    .ad-list-row .column.name{
+        display:inline-block;
+        width:472px;
+        padding-left:2px;
+    }
+
+    .ad-list-row .column.aff{
+        display:inline-block;
+        width:180px;
+        padding-left:2px;
+    }
+        
+    .ad-list-row .column.adtype{
+        display:inline-block;
+        width:90px;
+        padding-left:12px;
+    }
+ 
+
+    .ad-list-row .column.date{
+        display:inline-block;
+        width:110px;
+        text-align: center;
+        font-size:14px;
+    }
+
+    .ad-list-row .column.status{
+        display:inline-block;
+        width:120px;
+        text-align:center;
+    }
+
+    .ad-list-row .column.status .live{
+        color:blue;
+    }
+
+    .ad-list-row .column.status .pause{
+        color:green;
+    }
+
+    .ad-list-row .column.status .end{
+        color:red;
+    }
+
+    .ad-list-row .column.status .ready{
+        color:orange;
+    }
+
+    .ad-list-row .column.status .loopback{
+        color:steelblue;
+    }
+ 
+    .ad-list-row .column.adlist{
+        display:inline-block;
+        width:140px;
+    }
+
+    .ad-list-row .column.imp{
+        display:inline-block;
+        width:200px;
+        padding-left:8px;
+    }
+ 
+
+    .ad-list-row div.adlist-btn{
+        display: inline-block;
+        padding: 3px 12px;
+        /* border: 2px solid #0150a0; */
+        border-radius: 4px;
+        color: #677BA5;
+        font-weight: 400;
+        cursor: pointer;
+        /* margin-bottom: 6px; */
+        margin-right: 1px;
+        text-align: center;
+        font-size: 14px;
+        /* background-color: white; */
+        bottom: 3px;
+        position: relative;
+        left: 110px;
+    }
+
+    .ad-list-row div.adlist-btn.ad-media{
+        font-size:16px;
+    }
+
+    .ad-list-row div.adlist-btn.delete-btn{
+        width:85px;
+    }
+
+    .ad-list-row div.adlist-btn:hover{
+        text-decoration: underline;
+        color:#00264d;
+    }
+        
+ 
+
+
+
+    .ad-list-filter{
+        height:50px;
+        line-height:50px;
+    }
+
+    .ad-list-filter .filter-status{
+        display:inline-block;
+
+    }
+    .ad-list-filter .filter-status .filter-status-text{
+        display:inline-block;
+        margin-left:50px;
+        font-size:17px;
+        font-weight:600;
+        margin-right:10px;
+        font-family: 'Noto Sans KR', sans-serif;
+    } 
+
+    .ad-list-filter .filter-name{
+        width:630px;
+        display:inline-block;
+    }
+
+    .ad-list-filter .select-status{
+        border-radius:6px;
+        cursor:pointer;
+        margin-left:5px;
+    }
+ 
+
+    .ad-list-filter .filter-name .filter-name-text{
+        margin-left:150px;
+        font-size:17px;
+        font-weight:600;
+        margin-right:10px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .ad-list-filter .filter-name .filter-name-textbox{
+        height: 35px;
+        padding-left: 12px;
+        width: 300px;
+        margin-left: 7px;
+        border-radius: 5px;
+    }
+
+    .ad-list-filter .filter-name .filter-name-btn{
+        display: inline-block;
+        border: 2px solid #0150a0;
+        line-height: 32px;
+        width: 70px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 3px;
+        cursor:pointer;
+        color:#0150a0;
+    }
+
+    .ad-list-filter .filter-name .filter-name-btn:hover{
+        background-color:#0150a0;
+        color:white;
+        font-weight:600;
+    }
+
+    .ad-list-filter .show-count{
+        display:inline-block;
+        width:auto;
+    }
+
+    .ad-list-filter .show-count-text{
+        font-weight:600;
+        margin-right:10px;
+        font-size:17px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .ad-list-filter .show-count-select{
+        margin-left:10px;
+        border-radius:6px;
+        cursor:pointer;
+    }
+
+ 
+
+    
+    #click-popup-adskey{
+        display:none;
+    }
+
+    .click-popup-desc{
+        padding-left: 27px;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+
+    /* 클릭 팝업 */
+    .click-popup-header {border-bottom:1px dotted #ececec;padding-bottom:15px; padding-top:15px;}
+ 
+
+    .click-popup-header .click-key{
+        display:inline-block; width:385px; 
+        font-size:17px; font-weight:600;
+        padding-left:27px;
+    }
+    
+    .modal-body.click-popup .click-key{
+        padding-left: 9px;
+        font-size: 14px;
+        border-bottom:1px dotted #ececec;
+    }
+
+    .modal-body.click-popup .click-key:last-of-type{
+        border-bottom:none;
+    }
+
+    .modal-body.click-popup{
+        overflow-y: scroll;
+        padding-top:12px;
+        padding-left:20px;
+    }
+
+
+    .modal-body.click-popup .each-row{
+        font-family:Consolas;
+        width:max-content;
+        height:610px;
+    }
+
+
+    .modal-dialog.click-popup{
+        max-width:1400px !important;
+    }
+
+    .modal-dialog.click-popup .close{
+        color:white;
+    }
+    
+    .modal-dialog.click-popup .modal-header{
+        background-color:#00264d; color:white;
+    }
+
+    /* 매체사 광고 집행 현황 팝업 */
+    .modal-body.admedia-popup{
+        height: 700px;
+        overflow-y: scroll;
+        padding-left: 35px;
+        padding-top: 25px
+    }
+
+
+    .modal-body.admedia-popup .media-closed{
+        font-size:14px;
+        color:gray;
+    }
+
+    .modal-body.admedia-popup .daily-cap-warning{
+        font-size:14px;
+        color:red;
+        display:inline-block;
+    }
+
+    .modal-body.admedia-popup .add-daily-cap{
+        font-size:14px;
+        display:inline-block;
+    }
+    .modal-body.admedia-popup .add-daily-cap:hover{
+        color:blue;
+        text-decoration: underline;
+        cursor:pointer;
+    }
+
+    .modal-body.admedia-popup .sub-header{
+        font-size:19px;
+        font-weight:600;
+
+    }
+
+    .modal-body.admedia-popup .daily-cap-tip{
+        margin-bottom:15px;
+    }
+
+    .modal-body.admedia-popup .each-row{
+        font-family:Consolas;
+        border-bottom:1px dotted #ececec;
+        
+    }
+
+    .modal-dialog.admedia-popup .close{
+        color:white;
+    }
+    
+    .modal-dialog.admedia-popup .modal-header{
+        background-color:#00264d; color:white;
+    }

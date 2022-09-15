@@ -1,0 +1,220 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+.cont {
+    position: absolute;
+    top: -100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1100px;
+    height: 500px;
+    border-radius:4px;
+    
+    text-align:center;
+}
+
+.cont .inner{
+    height:100%;   
+    text-align:left;
+}
+ 
+
+.cont .inner .inner-right{
+    display:inline-block;
+    height:100%;
+    margin-left:80px;
+}
+
+.cont .login-header{
+    margin-top:130px;
+    font-size:45px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+
+.cont  .login-cont{
+    display:inline-block;
+}
+
+
+.cont  .login-cont-row.no-btm{
+    border-bottom:none;
+}
+
+.cont  .login-cont-row{
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align: center;
+    border-bottom:1px dotted #ececec;
+}
+.cont .login-cont-row .label{
+    width:100px;
+    display:inline-block;
+    margin-right:20px;
+    text-align:left;
+    font-size:20px;
+    font-weight:500;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.cont .login-cont-row .text{
+    display:inline-block;
+}
+ 
+.cont .login-cont-row.margin-top{
+    margin-top:10px;
+}
+
+.cont .login-cont-row input[type=textbox]{
+    height:30px;
+    font-size:16px;
+    padding-left: 15px;
+    width: 180px;
+    border:none;
+}
+
+.cont .copyright-text{
+    margin-top:50px;
+}
+.cont .login-cont-row input[type=textbox].pwd{
+    -webkit-text-security: disc;
+}
+
+.cont .login-text{
+    text-align: center;
+    border: 2px solid #00264d;
+    padding: 10px 40px;
+    font-size:20px;
+    border-radius: 6px;
+    color:#00264d;
+    cursor:pointer;
+    width:105px;
+    display:inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:500;
+}
+
+
+.cont .login-text.repwd{
+    font-size:18px;
+    
+}
+
+.cont .login-text:hover{
+    background-color:#00264d;
+    color:white;
+    font-weight:bold;
+    
+}
+ 
+
+.cont .login-cont-row .repassword{
+    margin-left:12px;   
+}
+
+
+
+
+
+.cont  .signup{
+    display:inline-block;
+}
+
+.cont  .signup-row.no-btm{
+    border-bottom:none;
+}
+.cont  .signup-row{
+    padding-bottom:7px;
+    padding-top:7px;
+    text-align: center;
+    border-bottom:1px dotted #ececec;
+}
+.cont  .signup-row:last-of-type{
+    border-bottom:none;
+}
+.cont  .signup-row .label{
+    width:140px;
+    display:inline-block;
+    margin-right:20px;
+    text-align:left;
+    font-size:16px;
+    font-weight:600;
+    color:#00264d;
+    
+}
+
+.cont .signup-row .text{
+    display:inline-block;
+}
+ 
+.cont .signup-row.margin-top{
+    margin-top:10px;
+}
+
+.cont .signup-row input[type=textbox]{
+    height:30px;
+    font-size:16px;
+    padding-left: 13px;
+    width: 160px;
+    border:none;
+}
+
+.cont .signup-row input[type=textbox].pwd{
+    -webkit-text-security: disc;
+}
+
+
+
+
+.cont  .repwd{
+    display:inline-block;
+}
+
+.cont  .repwd-row.no-btm{
+    border-bottom:none;
+}
+
+.cont  .repwd-row{
+    padding-bottom:7px;
+    padding-top:7px;
+    text-align: center;
+    border-bottom:1px dotted #ececec;
+}
+.cont  .repwd-row:last-of-type{
+    border-bottom:none;
+}
+.cont  .repwd-row .label{
+    width:115px;
+    display:inline-block;
+    margin-right:20px;
+    text-align:left;
+    font-size:16px;
+    font-weight:600;
+    color:#00264d;
+    
+}
+
+.cont .repwd-row .text{
+    display:inline-block;
+}
+ 
+.cont .repwd-row.margin-top{
+    margin-top:10px;
+}
+
+.cont .repwd-row input[type=textbox]{
+    height:30px;
+    font-size:16px;
+    padding-left: 13px;
+    width: 160px;
+    border:none;
+}
+
+.cont .repwd-row input[type=textbox].pwd{
+    -webkit-text-security: disc;
+}
