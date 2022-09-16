@@ -20,12 +20,12 @@
         pettri.init
     </div>
     <br>
-    <div class='remark left-space'>// 이벤트 개수를 기준으로 페트리에 업로드 요청합니다.</div>
+    <div class='remark left-space'>// 이벤트 개수를 기준으로 페트리에 전송합니다.</div>
     <div class='line left-space'>
         pettri.setUploadMetric(Pettri.UploadMetric.Event)
     </div>
     <br>
-    <div class='remark left-space'>// 기준에 해당하는 개수가 되면 패트리로 업로드가 요청이 됩니다. 5번 이벤트가 발생되었을 경우 페트리에 업로드 됩니다.</div>
+    <div class='remark left-space'>// 기준에 해당하는 개수가 되면 패트리로 전송이 됩니다. 5번 이벤트가 발생되었을 경우 페트리에 전송됩니다.</div>
     <div class='line left-space'>
         pettri.setUploadMetric(5)
     </div>

@@ -16,7 +16,7 @@
 
 <div class='sub-title-1'>이벤트 업로드 주기 설정</div>
 <div class='sub-title-2'>이벤트 개수 누적</div>
-일정 개수의 이벤트가 발생되었을 때 페트리 서버로 측정된 이벤트 데이터를 업로드 하도록 합니다.
+일정 개수의 이벤트가 발생되었을 때 페트리 서버로 측정된 이벤트 데이터를 전송합니다.
 
 <Code2 leftbrace={leftbrace} rightbrace={rightbrace}/>
 <Code3 leftbrace={leftbrace} rightbrace={rightbrace}/>

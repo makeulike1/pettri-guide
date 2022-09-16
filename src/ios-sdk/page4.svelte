@@ -1,5 +1,7 @@
 <script>
-    import Code4 from "./code4.svelte"
+    import Code5 from "./code5.svelte"
+    import Code6 from "./code6.svelte"
+    import Code7 from "./code7.svelte"
     let leftbrace = "{"    
     let rightbrace = "}"
 </script>
@@ -9,9 +11,14 @@
 <div class='sub-title-1 no-mgtop'>로그인 / 로그아웃</div>
 딥 링크가 오픈되는 시점에 다음과 같이 트래킹 코드를 추가하여, 패트리에 딥 링크가 오픈되었음을 알립니다.
 
-<Code4 leftbrace={leftbrace} rightbrace={rightbrace}/>
+<Code6 leftbrace={leftbrace} rightbrace={rightbrace}/>
 
 <div class='sub-title-1'>회원 정보</div>
-딥 링크가 오픈되는 시점에 다음과 같이 트래킹 코드를 추가하여, 패트리에 딥 링크가 오픈되었음을 알립니다.
+회원에 대해서 파악가능한 지표를 페트리 서버에 전송하여 분석에 활용할 수 있습니다.
 
-<Code4 leftbrace={leftbrace} rightbrace={rightbrace}/>
+<Code5/>
+
+<div class='sub-title-1'>위치 정보</div>
+현재 회원의 위치 정보를 페트리 서버에 전송하여 분석에 활용할 수 있습니다.
+
+<Code7/>
