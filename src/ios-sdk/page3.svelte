@@ -1,60 +1,22 @@
 <script>
+    import Code8 from "./code8.svelte"
+    import Code9 from "./code9.svelte"
+    import Code10 from "./code10.svelte"
     
 </script>
 <h3 class='head-text'>페트리 iOS 연동</h3>
 <div class='title'>이벤트 분석</div>
+앱에서 발생한 이벤트를 패트리 서버에 전송하여 성과 측정에 기여할 수 있습니다.
+<Code8/>
+
+<div class='text mg-top'>예를 들어서 회원 가입 이벤트에 대해서 전환을 측정하고자 한다면, 아래와 같이 회원 이벤트와 속성 정보를 정의할 수 있습니다.</div>
+<Code9/>
 
 
-<ul class='page-list'>
-    <li>
-        유저 분석
-        <ul>
-            <li>로그인/로그아웃 이벤트</li>
-            <li>유저 정보</li>
-            <li>위치 정보</li>
-        </ul>
-    </li>
-    <li>커스텀 분석</li>
-    <li>
-        공통(일반) 분석
-        <ul>
-            <li>회원가입</li>
-            <li>앱 업데이트</li>
-            <li>사용자 초대</li>
-            <li>크레딧 사용</li>
-            <li>구매하기</li>
-        </ul>
-    </li>
-    <li>
-        커머스 분석
-        <ul>
-            <li>상품상세보기</li>
-            <li>장바구니담기</li>
-            <li>관심상품추가</li>
-            <li>주문확인하기</li>
-            <li>주문취소하기</li>
-            <li>상품검색하기</li>
-            <li>상품공유하기</li>
-            <li>상품목록 조회하기</li>
-            <li>장바구니 조회하기</li>
-            <li>결제 정보 입력하기</li>
-        </ul>
-    </li>
-    <li>
-        게임 분석
-        <ul>
-            <li>튜토리얼 완료</li>
-            <li>캐릭터 생성</li>
-            <li>스테이지 완료</li>
-            <li>레벨 달성</li>
-        </ul>
-    </li>
-</ul>
+<div class='text mg-top'>회원이 앱을 업데이트하였을 경우, 아래와 같이 속성 값을 커스터마이징하여 성과 측정에 기여할 수 있습니다.</div>
+<Code10/>
 
 
 <style>
-    ul.page-list{
-        line-height:38px;
-        margin-top:22px;
-    }
+ 
 </style>
